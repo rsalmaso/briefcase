@@ -84,7 +84,7 @@ dependencies = [
     # has a runtime warning about the use of chardet 6+, which our test suite turns into
     # a full error. Requests has already increased the pin; the next requests release
     # should remove the need for this pin.
-    "chardet < 6.0",
+    "chardet < 8.0",
     # See binaryornot/binaryornot#642 and binaryornot/binaryornot#649. binaryornot is
     # transitive dependency of cookiecutter; v0.5.0 introduced #642, preventing correct
     # detection of PNG content (#642). v0.6.0 (released a few days later) fixes #642,
